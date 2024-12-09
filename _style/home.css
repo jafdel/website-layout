@@ -1,0 +1,34 @@
+header {
+    background-image: url("../_img/undraw.png");
+}
+
+main > div.grid > div.p-10 > div.border > div:first-child {
+    display: flex;
+    align-self: flex-start !important;
+    flex-direction: column;
+}
+
+main > div.grid > div.p-10 > div.border > div:last-child {
+    display: flex;
+    align-self: flex-end !important;
+    flex-direction: column;
+}
+
+main > div.grid > div > div > div > button {
+    margin: 0px auto;
+}
+
+main > div.grid > div > div > div > button, main > div.grid > div > div > div > p {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main > div.grid > div > div > div > h3 {
+    margin: 0px auto 10px;
+    text-align: center;
+}
+
+main > div.grid > div > div > div > img {
+    width: 100%;
+    padding: 0px 120px;
+}

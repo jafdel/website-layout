@@ -1,0 +1,225 @@
+@media only screen and (max-width: 700px) {
+    button.blue, header > div > div > div > p, main > div.grid > div > div > div > p, button.more {
+        font-size: small;
+    }
+
+    .grid {
+        grid-template-columns: 100% !important;
+    }
+
+    .grid h3 {
+        font-size: 1.2em;   
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    main > div.grid > div.p-10 > div.border > div > h3 {
+        font-size: 1em;
+        padding: 0px;
+        margin: 0px !important;
+        text-align: left;
+        text-wrap: wrap !important;
+    }
+}
+
+header {
+    min-height: 50vh;
+    align-content: flex-end;
+    background-size: 50% 90%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+nav {
+    height: 2.7em;
+}
+
+nav > div {
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+}
+
+footer {
+    justify-content: center;
+}
+
+.zone {
+    /*padding:30px 50px;
+    margin:40px 60px;
+    cursor:pointer;*/
+    /*display:inline-block;
+    /*color:#FFF;
+    font-size:2em;*/
+    /*border-radius:4px;
+    border:1px solid #bbb;*/
+    transition: all 0.3s linear;
+}
+
+.light {
+    color: black;
+}
+
+.dark {
+    color: white;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.flex {
+    display: flex !important;
+    /*justify-content: center !important;*/
+    flex-wrap: wrap;
+}
+
+.f-width {
+    width: 100%;
+}
+
+.f-height {
+    height: 100%;
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.nowrap {
+    text-wrap: nowrap;
+}
+
+.ten-pc {
+    padding: 10px 10% !important;
+}
+
+/*.self {
+    align-content: center;
+    margin: 0px auto;
+    justify-self: center !important;
+    align-self: center !important;
+}*/
+
+.p-10 {
+    padding: 10px;
+}
+
+.border {
+    border-width: 6px !important;
+}
+
+.auto {
+    width: auto;
+}
+
+.inherit {
+    width: inherit !important;
+}
+
+ul.navbar-nav > li {
+    margin-right: 10px;
+}*/
+
+li#signin, li#register {
+    display: inline-flex !important;
+    flex-direction: row-reverse !important;
+}
+
+ul.flex:last-child {
+    justify-content: flex-end;
+}
+
+/*.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}*/
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Green Background
+ **********************************************************************/
+.green {
+    background: #56B870; /* Old browsers */
+    background: -moz-linear-gradient(top, #56B870 0%, #a5c956 100%); /* FF3.6+ */
+    /*background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#56B870), color-stop(100%,#a5c956)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #56B870 0%,#a5c956 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #56B870 0%,#a5c956 100%); /* IE10+ */
+    background: linear-gradient(top, #56B870 0%,#a5c956 100%); /* W3C */
+}
+
+button.blue, a.blue, li.nav-item.dropdown {
+    transition: all 0.25s;
+    border: none;
+}
+
+button.blue:hover, button.blue:focus, button.blue:active, a.blue:hover, a.blue:focus, a.blue:active, button.btn.show {
+    background: blue !important;
+    border-color: #fff !important;
+    color: blue !important;
+    background: #fff !important;
+}
+
+li.nav-item.blue.shadow > button.blue::after {
+    content: "\25BC";
+    vertical-align: middle;
+    font-size: 3pt;
+}
+
+li#signin > button.blue::after, li#register > button.blue::after {
+    content: "";
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red {
+    background: #C655BE; /* Old browsers */
+    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
+    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+    color: white;
+}
+
+/***********************************************************************
+ *  Yellow Background
+ **********************************************************************/
+.yellow {
+    background: #F3AAAA; /* Old browsers */
+    background: -moz-linear-gradient(top, #F3AAAA 0%, #febf04 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F3AAAA), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* IE10+ */
+    background: linear-gradient(top, #F3AAAA 0%,#febf04 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Blue Background
+ **********************************************************************/
+.blue {
+    background: #7abcff; /* Old browsers */
+    background: -moz-linear-gradient(top, #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
+    background: linear-gradient(top, #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */
+}
+
+header > div {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 0px 10px;
+    height: 100%;
+}
