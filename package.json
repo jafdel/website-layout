@@ -1,0 +1,16 @@
+{
+  "name": "website-layout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "_scripts/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify _scripts/script.js > _scripts/bundle.js && live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "npm": "^10.9.2"
+  }
+}
